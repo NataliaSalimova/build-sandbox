@@ -1,9 +1,10 @@
 {
   "presets": [["@babel/env", {
-    "targets": {
-      "edge": "18",
-      "chrome" : "54",
-      "ie": "11"
-    }
+    "debug": true,
+    "targets": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 ios versions"
+    ]
   }]]
 }
