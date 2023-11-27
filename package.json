@@ -24,6 +24,7 @@
     "@babel/plugin-transform-template-literals": "^7.23.3",
     "@babel/preset-env": "^7.23.3",
     "@babel/preset-react": "^7.23.3",
+    "babel-loader": "^9.1.3",
     "file-loader": "^6.2.0"
   }
 }
