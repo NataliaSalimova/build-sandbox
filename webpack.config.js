@@ -42,6 +42,14 @@ module.exports = {
                     { loader: 'style-loader' },
                     { loader: 'css-loader' }
                 ]
+            },
+            {
+                test: /\.(s[ca]ss)$/,
+                use: [
+                    { loader: 'style-loader' },
+                    { loader: 'css-loader' },
+                    { loader: 'sass-loader' }
+                ]
             }
         ]
     }
