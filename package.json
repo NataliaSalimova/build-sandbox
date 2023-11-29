@@ -4,19 +4,16 @@
   "description": "Sandbox to play with React build tools",
   "main": "index.js",
   "scripts": {
-    "start": "webpack",
+    "start": "webpack-dev-server",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Natalia Salimova",
   "license": "ISC",
   "dependencies": {
     "core-js": "^3.33.3",
-    "node-sass": "^9.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "sass-loader": "^13.3.2",
-    "webpack": "^5.89.0",
-    "webpack-cli": "^5.1.4"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.23.4",
@@ -31,6 +28,11 @@
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.3",
     "mini-css-extract-plugin": "^2.7.6",
-    "style-loader": "^3.3.3"
+    "style-loader": "^3.3.3",
+    "webpack-dev-server": "^4.15.1",
+    "node-sass": "^9.0.0",
+    "sass-loader": "^13.3.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
   }
 }
