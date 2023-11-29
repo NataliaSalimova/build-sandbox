@@ -47,6 +47,8 @@ module.exports = {
 
     plugins: [
         new HtmlWebpackPlugin({
+            title: 'Hello World',
+            builtTime: new Date().toISOString(),
             template: 'src/index.html'
         })
     ]
